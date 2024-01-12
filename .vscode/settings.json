@@ -1,0 +1,18 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/denis/ros2_ws/build/my_robot_controller",
+        "/home/denis/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/home/denis/Downloads/ros2_px4_offboard_example_ws/src/install/px4_offboard/lib/python3.10/site-packages",
+        "/home/denis/Downloads/ros2_px4_offboard_example_ws/src/install/px4_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/denis/ros2_ws/build/my_robot_controller",
+        "/home/denis/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/home/denis/Downloads/ros2_px4_offboard_example_ws/src/install/px4_offboard/lib/python3.10/site-packages",
+        "/home/denis/Downloads/ros2_px4_offboard_example_ws/src/install/px4_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
