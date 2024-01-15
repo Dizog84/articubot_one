@@ -2,6 +2,7 @@ import os
 
 from ament_index_python.packages import get_package_share_directory
 
+#import launch
 from launch import LaunchDescription
 from launch.substitutions import LaunchConfiguration
 from launch.actions import DeclareLaunchArgument
@@ -26,7 +27,8 @@ def generate_launch_description():
         package='robot_state_publisher',
         executable='robot_state_publisher',
         output='screen',
-        parameters=[params]
+        parameters=[params],
+        arguments=('__log_level:=debug')
     )
 
 
@@ -39,3 +41,9 @@ def generate_launch_description():
 
         node_robot_state_publisher
     ])
+
+
+#import pprint
+#import sys
+#pprint.pprint(sys.path)
+#pprint.pprint(locals())
