@@ -58,7 +58,8 @@ Visualization Manager:
         All Enabled: true
         base_link:
           Value: true
-        castor_wheel:
+        
+_wheel:
           Value: true
         chassis:
           Value: true
@@ -74,7 +75,7 @@ Visualization Manager:
       Tree:
         base_link:
           chassis:
-            castor_wheel:
+            caster_wheel:
               {}
           left_wheel:
             {}
@@ -104,7 +105,7 @@ Visualization Manager:
           Alpha: 1
           Show Axes: false
           Show Trail: false
-        castor_wheel:
+        caster_wheel:
           Alpha: 1
           Show Axes: false
           Show Trail: false
