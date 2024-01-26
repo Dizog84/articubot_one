@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
-
+<!--teleop-key description "uiojklm,." j/l-forward_back i/,-rotation_on_point  k-stop u/o/m/. radios move with angular speed (w) and linear turn (v) example (0,1 5,8)  -->
+ <!--odom/baselink trlrop rviz2 gazebo otnositelnoe dvigenie-->
     <gazebo>
         <plugin name="diff_drive" filename="libgazebo_ros_diff_drive.so">
 
